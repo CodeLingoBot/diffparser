@@ -73,6 +73,7 @@ type DiffFile struct {
 	Hunks      []*DiffHunk
 }
 
+// test
 // Diff is the collection of DiffFiles
 type Diff struct {
 	Files []*DiffFile
